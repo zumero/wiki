@@ -1,0 +1,42 @@
+//
+//  ZWConfig.m
+//  Zumero Wiki
+//
+
+#import "ZWConfig.h"
+
+@implementation ZWConfig
+
++ (NSString *)server
+{
+	return @"https://yourserver.s.zumero.net";
+}
+
++ (NSString *)username
+{
+	return @"wikiuser";
+}
+
++ (NSString *)password
+{
+	return @"wikipassword";
+}
+
++ (NSString *)dbname
+{
+	return @"wiki";
+}
+
++ (NSDictionary *)scheme
+{
+	return @{ @"dbfile": @"wikiauth", @"scheme_type": @"internal" };
+}
+
++ (NSString *)dbpath
+{
+	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+	NSString *path = [paths objectAtIndex:0];
+	return path;
+}
+
+@end

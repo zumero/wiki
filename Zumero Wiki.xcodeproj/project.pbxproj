@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F239B6916EBD8C50020A716 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F239B6816EBD8C50020A716 /* UIKit.framework */; };
+		0F239B6B16EBD8C50020A716 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F239B6A16EBD8C50020A716 /* Foundation.framework */; };
+		0F239B6D16EBD8C50020A716 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F239B6C16EBD8C50020A716 /* CoreGraphics.framework */; };
+		0F239B7316EBD8C50020A716 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F239B7116EBD8C50020A716 /* InfoPlist.strings */; };
+		0F239B7516EBD8C50020A716 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F239B7416EBD8C50020A716 /* main.m */; };
+		0F239B7916EBD8C50020A716 /* ZWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F239B7816EBD8C50020A716 /* ZWAppDelegate.m */; };
+		0F239B7B16EBD8C50020A716 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F239B7A16EBD8C50020A716 /* Default.png */; };
+		0F239B7D16EBD8C50020A716 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F239B7C16EBD8C50020A716 /* Default@2x.png */; };
+		0F239B7F16EBD8C50020A716 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F239B7E16EBD8C50020A716 /* Default-568h@2x.png */; };
+		0F239B8216EBD8C50020A716 /* ZWMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F239B8116EBD8C50020A716 /* ZWMasterViewController.m */; };
+		0F239B8516EBD8C50020A716 /* ZWDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F239B8416EBD8C50020A716 /* ZWDetailViewController.m */; };
+		0F239B8816EBD8C50020A716 /* ZWMasterViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F239B8616EBD8C50020A716 /* ZWMasterViewController_iPhone.xib */; };
+		0F239B8B16EBD8C50020A716 /* ZWMasterViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F239B8916EBD8C50020A716 /* ZWMasterViewController_iPad.xib */; };
+		0F239B8E16EBD8C50020A716 /* ZWDetailViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F239B8C16EBD8C50020A716 /* ZWDetailViewController_iPhone.xib */; };
+		0F239B9116EBD8C50020A716 /* ZWDetailViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F239B8F16EBD8C50020A716 /* ZWDetailViewController_iPad.xib */; };
+		0F867FB516EE526600E6F7F8 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F867FB416EE526600E6F7F8 /* CFNetwork.framework */; };
+		0F867FB716EE526A00E6F7F8 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F867FB616EE526A00E6F7F8 /* libsqlite3.dylib */; };
+		0F867FC216EE527E00E6F7F8 /* VvMarkdown.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F867FB916EE527E00E6F7F8 /* VvMarkdown.m */; };
+		0F867FC316EE527E00E6F7F8 /* VVMarkdownView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F867FBB16EE527E00E6F7F8 /* VVMarkdownView.m */; };
+		0F867FC416EE527E00E6F7F8 /* VVTapDetectingWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F867FBD16EE527E00E6F7F8 /* VVTapDetectingWindow.m */; };
+		0F867FC616EE527F00E6F7F8 /* WikiPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F867FC116EE527E00E6F7F8 /* WikiPage.m */; };
+		0F867FC816EE529600E6F7F8 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F867FC716EE529600E6F7F8 /* libz.dylib */; };
+		0FB2933B16FCA6B30026D61F /* WikiBold.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FB2932D16FCA6B30026D61F /* WikiBold.png */; };
+		0FB2933C16FCA6B30026D61F /* WikiBold@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FB2932E16FCA6B30026D61F /* WikiBold@2x.png */; };
+		0FB2933D16FCA6B30026D61F /* WikiCode.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FB2932F16FCA6B30026D61F /* WikiCode.png */; };
+		0FB2933E16FCA6B30026D61F /* WikiCode@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FB2933016FCA6B30026D61F /* WikiCode@2x.png */; };
+		0FB2933F16FCA6B30026D61F /* WikiH1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FB2933116FCA6B30026D61F /* WikiH1.png */; };
+		0FB2934016FCA6B30026D61F /* WikiH1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FB2933216FCA6B30026D61F /* WikiH1@2x.png */; };
+		0FB2934116FCA6B30026D61F /* WikiH2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FB2933316FCA6B30026D61F /* WikiH2.png */; };
+		0FB2934216FCA6B30026D61F /* WikiH2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FB2933416FCA6B30026D61F /* WikiH2@2x.png */; };
+		0FB2934316FCA6B30026D61F /* WikiItalic.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FB2933516FCA6B30026D61F /* WikiItalic.png */; };
+		0FB2934416FCA6B30026D61F /* WikiItalic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FB2933616FCA6B30026D61F /* WikiItalic@2x.png */; };
+		0FB2934516FCA6B30026D61F /* WikiOL.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FB2933716FCA6B30026D61F /* WikiOL.png */; };
+		0FB2934616FCA6B30026D61F /* WikiOL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FB2933816FCA6B30026D61F /* WikiOL@2x.png */; };
+		0FB2934716FCA6B30026D61F /* WikiUL.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FB2933916FCA6B30026D61F /* WikiUL.png */; };
+		0FB2934816FCA6B30026D61F /* WikiUL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FB2933A16FCA6B30026D61F /* WikiUL@2x.png */; };
+		0FB2934B16FCABBE0026D61F /* ZWImagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB2934A16FCABBD0026D61F /* ZWImagePickerViewController.m */; };
+		0FB2934D16FCB22B0026D61F /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FB2934C16FCB22B0026D61F /* AssetsLibrary.framework */; };
+		0FB29353170095620026D61F /* WikiImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FB29351170095620026D61F /* WikiImage.png */; };
+		0FB29354170095620026D61F /* WikiImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FB29352170095620026D61F /* WikiImage@2x.png */; };
+		0FB293571700A0E20026D61F /* ZWConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB293561700A0E20026D61F /* ZWConfig.m */; };
+		0FB2935A1700C1750026D61F /* ZWError.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB293591700C1750026D61F /* ZWError.m */; };
+		0FB2935C1700C4E20026D61F /* Zumero.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FB2935B1700C4E20026D61F /* Zumero.framework */; };
+		0FB2939417038B9E0026D61F /* WikiPage.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FB2939217038B9E0026D61F /* WikiPage.png */; };
+		0FB2939517038B9E0026D61F /* WikiPage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FB2939317038B9E0026D61F /* WikiPage@2x.png */; };
+		0FB3114516EE6563000D9E06 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FB3114416EE6563000D9E06 /* Icon.png */; };
+		0FB3114716EE6566000D9E06 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FB3114616EE6566000D9E06 /* Icon@2x.png */; };
+		0FB3114916EE6585000D9E06 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FB3114816EE6585000D9E06 /* Icon-72.png */; };
+		0FB3114B16EE6587000D9E06 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FB3114A16EE6587000D9E06 /* Icon-72@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F239B6516EBD8C50020A716 /* Zumero Wiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zumero Wiki.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F239B6816EBD8C50020A716 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0F239B6A16EBD8C50020A716 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0F239B6C16EBD8C50020A716 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0F239B7016EBD8C50020A716 /* Zumero Wiki-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Zumero Wiki-Info.plist"; sourceTree = "<group>"; };
+		0F239B7216EBD8C50020A716 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0F239B7416EBD8C50020A716 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0F239B7616EBD8C50020A716 /* Zumero Wiki-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Zumero Wiki-Prefix.pch"; sourceTree = "<group>"; };
+		0F239B7716EBD8C50020A716 /* ZWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWAppDelegate.h; sourceTree = "<group>"; };
+		0F239B7816EBD8C50020A716 /* ZWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWAppDelegate.m; sourceTree = "<group>"; };
+		0F239B7A16EBD8C50020A716 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0F239B7C16EBD8C50020A716 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0F239B7E16EBD8C50020A716 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0F239B8016EBD8C50020A716 /* ZWMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWMasterViewController.h; sourceTree = "<group>"; };
+		0F239B8116EBD8C50020A716 /* ZWMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWMasterViewController.m; sourceTree = "<group>"; };
+		0F239B8316EBD8C50020A716 /* ZWDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWDetailViewController.h; sourceTree = "<group>"; };
+		0F239B8416EBD8C50020A716 /* ZWDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWDetailViewController.m; sourceTree = "<group>"; };
+		0F239B8716EBD8C50020A716 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ZWMasterViewController_iPhone.xib; sourceTree = "<group>"; };
+		0F239B8A16EBD8C50020A716 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ZWMasterViewController_iPad.xib; sourceTree = "<group>"; };
+		0F239B8D16EBD8C50020A716 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ZWDetailViewController_iPhone.xib; sourceTree = "<group>"; };
+		0F239B9016EBD8C50020A716 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ZWDetailViewController_iPad.xib; sourceTree = "<group>"; };
+		0F867FB416EE526600E6F7F8 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		0F867FB616EE526A00E6F7F8 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		0F867FB816EE527E00E6F7F8 /* VvMarkdown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VvMarkdown.h; sourceTree = "<group>"; };
+		0F867FB916EE527E00E6F7F8 /* VvMarkdown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VvMarkdown.m; sourceTree = "<group>"; };
+		0F867FBA16EE527E00E6F7F8 /* VVMarkdownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVMarkdownView.h; sourceTree = "<group>"; };
+		0F867FBB16EE527E00E6F7F8 /* VVMarkdownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVMarkdownView.m; sourceTree = "<group>"; };
+		0F867FBC16EE527E00E6F7F8 /* VVTapDetectingWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVTapDetectingWindow.h; sourceTree = "<group>"; };
+		0F867FBD16EE527E00E6F7F8 /* VVTapDetectingWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVTapDetectingWindow.m; sourceTree = "<group>"; };
+		0F867FC016EE527E00E6F7F8 /* WikiPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WikiPage.h; sourceTree = "<group>"; };
+		0F867FC116EE527E00E6F7F8 /* WikiPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WikiPage.m; sourceTree = "<group>"; };
+		0F867FC716EE529600E6F7F8 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		0FB2932D16FCA6B30026D61F /* WikiBold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WikiBold.png; sourceTree = "<group>"; };
+		0FB2932E16FCA6B30026D61F /* WikiBold@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WikiBold@2x.png"; sourceTree = "<group>"; };
+		0FB2932F16FCA6B30026D61F /* WikiCode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WikiCode.png; sourceTree = "<group>"; };
+		0FB2933016FCA6B30026D61F /* WikiCode@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WikiCode@2x.png"; sourceTree = "<group>"; };
+		0FB2933116FCA6B30026D61F /* WikiH1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WikiH1.png; sourceTree = "<group>"; };
+		0FB2933216FCA6B30026D61F /* WikiH1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WikiH1@2x.png"; sourceTree = "<group>"; };
+		0FB2933316FCA6B30026D61F /* WikiH2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WikiH2.png; sourceTree = "<group>"; };
+		0FB2933416FCA6B30026D61F /* WikiH2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WikiH2@2x.png"; sourceTree = "<group>"; };
+		0FB2933516FCA6B30026D61F /* WikiItalic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WikiItalic.png; sourceTree = "<group>"; };
+		0FB2933616FCA6B30026D61F /* WikiItalic@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WikiItalic@2x.png"; sourceTree = "<group>"; };
+		0FB2933716FCA6B30026D61F /* WikiOL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WikiOL.png; sourceTree = "<group>"; };
+		0FB2933816FCA6B30026D61F /* WikiOL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WikiOL@2x.png"; sourceTree = "<group>"; };
+		0FB2933916FCA6B30026D61F /* WikiUL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WikiUL.png; sourceTree = "<group>"; };
+		0FB2933A16FCA6B30026D61F /* WikiUL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WikiUL@2x.png"; sourceTree = "<group>"; };
+		0FB2934916FCABBC0026D61F /* ZWImagePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWImagePickerViewController.h; sourceTree = "<group>"; };
+		0FB2934A16FCABBD0026D61F /* ZWImagePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWImagePickerViewController.m; sourceTree = "<group>"; };
+		0FB2934C16FCB22B0026D61F /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		0FB2934E16FCB9060026D61F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		0FB29351170095620026D61F /* WikiImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WikiImage.png; sourceTree = "<group>"; };
+		0FB29352170095620026D61F /* WikiImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WikiImage@2x.png"; sourceTree = "<group>"; };
+		0FB293551700A0E20026D61F /* ZWConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWConfig.h; sourceTree = "<group>"; };
+		0FB293561700A0E20026D61F /* ZWConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWConfig.m; sourceTree = "<group>"; };
+		0FB293581700C1750026D61F /* ZWError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWError.h; sourceTree = "<group>"; };
+		0FB293591700C1750026D61F /* ZWError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWError.m; sourceTree = "<group>"; };
+		0FB2935B1700C4E20026D61F /* Zumero.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Zumero.framework; path = ../../Zumero.framework; sourceTree = "<group>"; };
+		0FB2939217038B9E0026D61F /* WikiPage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WikiPage.png; sourceTree = "<group>"; };
+		0FB2939317038B9E0026D61F /* WikiPage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WikiPage@2x.png"; sourceTree = "<group>"; };
+		0FB3114416EE6563000D9E06 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
+		0FB3114616EE6566000D9E06 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
+		0FB3114816EE6585000D9E06 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "../Icon-72.png"; sourceTree = "<group>"; };
+		0FB3114A16EE6587000D9E06 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72@2x.png"; path = "../Icon-72@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F239B6216EBD8C50020A716 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FB2935C1700C4E20026D61F /* Zumero.framework in Frameworks */,
+				0FB2934D16FCB22B0026D61F /* AssetsLibrary.framework in Frameworks */,
+				0F867FC816EE529600E6F7F8 /* libz.dylib in Frameworks */,
+				0F867FB716EE526A00E6F7F8 /* libsqlite3.dylib in Frameworks */,
+				0F867FB516EE526600E6F7F8 /* CFNetwork.framework in Frameworks */,
+				0F239B6916EBD8C50020A716 /* UIKit.framework in Frameworks */,
+				0F239B6B16EBD8C50020A716 /* Foundation.framework in Frameworks */,
+				0F239B6D16EBD8C50020A716 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F239B5C16EBD8C50020A716 = {
+			isa = PBXGroup;
+			children = (
+				0FB2935B1700C4E20026D61F /* Zumero.framework */,
+				0FB2934E16FCB9060026D61F /* MobileCoreServices.framework */,
+				0FB2934C16FCB22B0026D61F /* AssetsLibrary.framework */,
+				0F867FC716EE529600E6F7F8 /* libz.dylib */,
+				0F867FB616EE526A00E6F7F8 /* libsqlite3.dylib */,
+				0F867FB416EE526600E6F7F8 /* CFNetwork.framework */,
+				0F239B6E16EBD8C50020A716 /* Zumero Wiki */,
+				0F239B6716EBD8C50020A716 /* Frameworks */,
+				0F239B6616EBD8C50020A716 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F239B6616EBD8C50020A716 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F239B6516EBD8C50020A716 /* Zumero Wiki.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F239B6716EBD8C50020A716 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F239B6816EBD8C50020A716 /* UIKit.framework */,
+				0F239B6A16EBD8C50020A716 /* Foundation.framework */,
+				0F239B6C16EBD8C50020A716 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0F239B6E16EBD8C50020A716 /* Zumero Wiki */ = {
+			isa = PBXGroup;
+			children = (
+				0FB293581700C1750026D61F /* ZWError.h */,
+				0FB293591700C1750026D61F /* ZWError.m */,
+				0F867FB816EE527E00E6F7F8 /* VvMarkdown.h */,
+				0F867FB916EE527E00E6F7F8 /* VvMarkdown.m */,
+				0F867FBA16EE527E00E6F7F8 /* VVMarkdownView.h */,
+				0F867FBB16EE527E00E6F7F8 /* VVMarkdownView.m */,
+				0F867FBC16EE527E00E6F7F8 /* VVTapDetectingWindow.h */,
+				0F867FBD16EE527E00E6F7F8 /* VVTapDetectingWindow.m */,
+				0F867FC016EE527E00E6F7F8 /* WikiPage.h */,
+				0F867FC116EE527E00E6F7F8 /* WikiPage.m */,
+				0F239B7716EBD8C50020A716 /* ZWAppDelegate.h */,
+				0F239B7816EBD8C50020A716 /* ZWAppDelegate.m */,
+				0F239B8016EBD8C50020A716 /* ZWMasterViewController.h */,
+				0F239B8116EBD8C50020A716 /* ZWMasterViewController.m */,
+				0F239B8316EBD8C50020A716 /* ZWDetailViewController.h */,
+				0F239B8416EBD8C50020A716 /* ZWDetailViewController.m */,
+				0F239B8616EBD8C50020A716 /* ZWMasterViewController_iPhone.xib */,
+				0F239B8916EBD8C50020A716 /* ZWMasterViewController_iPad.xib */,
+				0F239B8C16EBD8C50020A716 /* ZWDetailViewController_iPhone.xib */,
+				0F239B8F16EBD8C50020A716 /* ZWDetailViewController_iPad.xib */,
+				0F239B6F16EBD8C50020A716 /* Supporting Files */,
+				0FB2934916FCABBC0026D61F /* ZWImagePickerViewController.h */,
+				0FB2934A16FCABBD0026D61F /* ZWImagePickerViewController.m */,
+				0FB293551700A0E20026D61F /* ZWConfig.h */,
+				0FB293561700A0E20026D61F /* ZWConfig.m */,
+			);
+			path = "Zumero Wiki";
+			sourceTree = "<group>";
+		};
+		0F239B6F16EBD8C50020A716 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FB2939217038B9E0026D61F /* WikiPage.png */,
+				0FB2939317038B9E0026D61F /* WikiPage@2x.png */,
+				0FB29351170095620026D61F /* WikiImage.png */,
+				0FB29352170095620026D61F /* WikiImage@2x.png */,
+				0FB2932D16FCA6B30026D61F /* WikiBold.png */,
+				0FB2932E16FCA6B30026D61F /* WikiBold@2x.png */,
+				0FB2932F16FCA6B30026D61F /* WikiCode.png */,
+				0FB2933016FCA6B30026D61F /* WikiCode@2x.png */,
+				0FB2933116FCA6B30026D61F /* WikiH1.png */,
+				0FB2933216FCA6B30026D61F /* WikiH1@2x.png */,
+				0FB2933316FCA6B30026D61F /* WikiH2.png */,
+				0FB2933416FCA6B30026D61F /* WikiH2@2x.png */,
+				0FB2933516FCA6B30026D61F /* WikiItalic.png */,
+				0FB2933616FCA6B30026D61F /* WikiItalic@2x.png */,
+				0FB2933716FCA6B30026D61F /* WikiOL.png */,
+				0FB2933816FCA6B30026D61F /* WikiOL@2x.png */,
+				0FB2933916FCA6B30026D61F /* WikiUL.png */,
+				0FB2933A16FCA6B30026D61F /* WikiUL@2x.png */,
+				0FB3114A16EE6587000D9E06 /* Icon-72@2x.png */,
+				0FB3114816EE6585000D9E06 /* Icon-72.png */,
+				0FB3114616EE6566000D9E06 /* Icon@2x.png */,
+				0FB3114416EE6563000D9E06 /* Icon.png */,
+				0F239B7016EBD8C50020A716 /* Zumero Wiki-Info.plist */,
+				0F239B7116EBD8C50020A716 /* InfoPlist.strings */,
+				0F239B7416EBD8C50020A716 /* main.m */,
+				0F239B7616EBD8C50020A716 /* Zumero Wiki-Prefix.pch */,
+				0F239B7A16EBD8C50020A716 /* Default.png */,
+				0F239B7C16EBD8C50020A716 /* Default@2x.png */,
+				0F239B7E16EBD8C50020A716 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F239B6416EBD8C50020A716 /* Zumero Wiki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F239B9416EBD8C50020A716 /* Build configuration list for PBXNativeTarget "Zumero Wiki" */;
+			buildPhases = (
+				0F239B6116EBD8C50020A716 /* Sources */,
+				0F239B6216EBD8C50020A716 /* Frameworks */,
+				0F239B6316EBD8C50020A716 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Zumero Wiki";
+			productName = "Zumero Wiki";
+			productReference = 0F239B6516EBD8C50020A716 /* Zumero Wiki.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F239B5D16EBD8C50020A716 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZW;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Sourcegear, LLC d.b.a. Zumero";
+			};
+			buildConfigurationList = 0F239B6016EBD8C50020A716 /* Build configuration list for PBXProject "Zumero Wiki" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0F239B5C16EBD8C50020A716;
+			productRefGroup = 0F239B6616EBD8C50020A716 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F239B6416EBD8C50020A716 /* Zumero Wiki */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F239B6316EBD8C50020A716 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F239B7316EBD8C50020A716 /* InfoPlist.strings in Resources */,
+				0F239B7B16EBD8C50020A716 /* Default.png in Resources */,
+				0F239B7D16EBD8C50020A716 /* Default@2x.png in Resources */,
+				0F239B7F16EBD8C50020A716 /* Default-568h@2x.png in Resources */,
+				0F239B8816EBD8C50020A716 /* ZWMasterViewController_iPhone.xib in Resources */,
+				0F239B8B16EBD8C50020A716 /* ZWMasterViewController_iPad.xib in Resources */,
+				0F239B8E16EBD8C50020A716 /* ZWDetailViewController_iPhone.xib in Resources */,
+				0F239B9116EBD8C50020A716 /* ZWDetailViewController_iPad.xib in Resources */,
+				0FB3114516EE6563000D9E06 /* Icon.png in Resources */,
+				0FB3114716EE6566000D9E06 /* Icon@2x.png in Resources */,
+				0FB3114916EE6585000D9E06 /* Icon-72.png in Resources */,
+				0FB3114B16EE6587000D9E06 /* Icon-72@2x.png in Resources */,
+				0FB2933B16FCA6B30026D61F /* WikiBold.png in Resources */,
+				0FB2933C16FCA6B30026D61F /* WikiBold@2x.png in Resources */,
+				0FB2933D16FCA6B30026D61F /* WikiCode.png in Resources */,
+				0FB2933E16FCA6B30026D61F /* WikiCode@2x.png in Resources */,
+				0FB2933F16FCA6B30026D61F /* WikiH1.png in Resources */,
+				0FB2934016FCA6B30026D61F /* WikiH1@2x.png in Resources */,
+				0FB2934116FCA6B30026D61F /* WikiH2.png in Resources */,
+				0FB2934216FCA6B30026D61F /* WikiH2@2x.png in Resources */,
+				0FB2934316FCA6B30026D61F /* WikiItalic.png in Resources */,
+				0FB2934416FCA6B30026D61F /* WikiItalic@2x.png in Resources */,
+				0FB2934516FCA6B30026D61F /* WikiOL.png in Resources */,
+				0FB2934616FCA6B30026D61F /* WikiOL@2x.png in Resources */,
+				0FB2934716FCA6B30026D61F /* WikiUL.png in Resources */,
+				0FB2934816FCA6B30026D61F /* WikiUL@2x.png in Resources */,
+				0FB29353170095620026D61F /* WikiImage.png in Resources */,
+				0FB29354170095620026D61F /* WikiImage@2x.png in Resources */,
+				0FB2939417038B9E0026D61F /* WikiPage.png in Resources */,
+				0FB2939517038B9E0026D61F /* WikiPage@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F239B6116EBD8C50020A716 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F239B7516EBD8C50020A716 /* main.m in Sources */,
+				0F239B7916EBD8C50020A716 /* ZWAppDelegate.m in Sources */,
+				0F239B8216EBD8C50020A716 /* ZWMasterViewController.m in Sources */,
+				0F239B8516EBD8C50020A716 /* ZWDetailViewController.m in Sources */,
+				0F867FC216EE527E00E6F7F8 /* VvMarkdown.m in Sources */,
+				0F867FC316EE527E00E6F7F8 /* VVMarkdownView.m in Sources */,
+				0F867FC416EE527E00E6F7F8 /* VVTapDetectingWindow.m in Sources */,
+				0F867FC616EE527F00E6F7F8 /* WikiPage.m in Sources */,
+				0FB2934B16FCABBE0026D61F /* ZWImagePickerViewController.m in Sources */,
+				0FB293571700A0E20026D61F /* ZWConfig.m in Sources */,
+				0FB2935A1700C1750026D61F /* ZWError.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0F239B7116EBD8C50020A716 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F239B7216EBD8C50020A716 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0F239B8616EBD8C50020A716 /* ZWMasterViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F239B8716EBD8C50020A716 /* en */,
+			);
+			name = ZWMasterViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		0F239B8916EBD8C50020A716 /* ZWMasterViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F239B8A16EBD8C50020A716 /* en */,
+			);
+			name = ZWMasterViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		0F239B8C16EBD8C50020A716 /* ZWDetailViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F239B8D16EBD8C50020A716 /* en */,
+			);
+			name = ZWDetailViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		0F239B8F16EBD8C50020A716 /* ZWDetailViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F239B9016EBD8C50020A716 /* en */,
+			);
+			name = ZWDetailViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F239B9216EBD8C50020A716 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0F239B9316EBD8C50020A716 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F239B9516EBD8C50020A716 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+					"\"$(SRCROOT)/../..\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Zumero Wiki/Zumero Wiki-Prefix.pch";
+				INFOPLIST_FILE = "Zumero Wiki/Zumero Wiki-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0F239B9616EBD8C50020A716 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+					"\"$(SRCROOT)/../..\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Zumero Wiki/Zumero Wiki-Prefix.pch";
+				INFOPLIST_FILE = "Zumero Wiki/Zumero Wiki-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F239B6016EBD8C50020A716 /* Build configuration list for PBXProject "Zumero Wiki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F239B9216EBD8C50020A716 /* Debug */,
+				0F239B9316EBD8C50020A716 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F239B9416EBD8C50020A716 /* Build configuration list for PBXNativeTarget "Zumero Wiki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F239B9516EBD8C50020A716 /* Debug */,
+				0F239B9616EBD8C50020A716 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F239B5D16EBD8C50020A716 /* Project object */;
+}
